@@ -17,3 +17,24 @@ def get_letter_grade(grade):
     else: letter_grade = "F"
 
     return letter_grade
+
+
+def display_menu():
+    print('1-Simple if')
+    print('2-if else')
+    print('3-if elif')
+
+def run_menu():
+    display_menu()
+    option = input('Enter a menu option(1, 2, or 3): ')
+
+    handle_menu_option(option)
+
+def selected_option_2 ():
+    print('User Selected Option 2')
+
+def handle_menu_option(option):
+    if(option == '1'): print('User Selected Option 1')
+    elif(option == '2'): selected_option_2
+    elif(option == '3'): print('User Selected Option 3')
+    else: print('Invalid Option')

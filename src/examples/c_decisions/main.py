@@ -1,7 +1,9 @@
 import decisions
 
-grade = int(input('Enter a numerical grade: '))
+#grade = int(input('Enter a numerical grade: '))
+#letter_grade = decisions.get_letter_grade(grade)
+#print('Grade is: ' + letter_grade)
 
-letter_grade = decisions.get_letter_grade(grade)
+decisions.run_menu()
 
-print('Grade is: ' + letter_grade)
+
