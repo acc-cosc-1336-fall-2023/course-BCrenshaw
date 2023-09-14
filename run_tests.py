@@ -5,7 +5,7 @@ YOU HAVE TO TEST FROM HERE BRANDON!
 # EXAMPLES -----------
 #from tests.examples.a_example import tests_devprocess
 #from tests.examples.a_example import tests_input_process_output
-from tests.examples.c_decisions import tests_decisions
+#from tests.examples.c_decisions import tests_decisions
 #from tests.examples.d_repetition import tests_repetition
 #from tests.examples.e_functions import tests_functions
 #from tests.examples.f_files_exception import tests_files_exception
@@ -19,7 +19,7 @@ from tests.examples.c_decisions import tests_decisions
 
 # HOMEWORK -----------
 #from tests.homework.b_in_proc_out import tests_in_proc_out
-#from tests.homework.c_decisions import tests_decisions
+from tests.homework.c_decisions import tests_decisions
 #from tests.homework.d_repetition import tests_repetition
 #from tests.homework.e_functions import tests_functions
 #from tests.homework.f_files_exception import tests_files_exception
