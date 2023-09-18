@@ -6,7 +6,7 @@ YOU HAVE TO TEST FROM HERE BRANDON!
 #from tests.examples.a_example import tests_devprocess
 #from tests.examples.a_example import tests_input_process_output
 #from tests.examples.c_decisions import tests_decisions
-#from tests.examples.d_repetition import tests_repetition
+from tests.examples.d_repetition import tests_repetition
 #from tests.examples.e_functions import tests_functions
 #from tests.examples.f_files_exception import tests_files_exception
 #from tests.examples.g_lists_and_tuples import tests_lists_and_tuples
@@ -19,7 +19,7 @@ YOU HAVE TO TEST FROM HERE BRANDON!
 
 # HOMEWORK -----------
 #from tests.homework.b_in_proc_out import tests_in_proc_out
-from tests.homework.c_decisions import tests_decisions
+#from tests.homework.c_decisions import tests_decisions
 #from tests.homework.d_repetition import tests_repetition
 #from tests.homework.e_functions import tests_functions
 #from tests.homework.f_files_exception import tests_files_exception
@@ -31,5 +31,5 @@ from tests.homework.c_decisions import tests_decisions
 #from tests.homework.l_recursion import tests_recursion
 #from tests.homework.m_gui import tests_gui
 
-suite = unittest.TestLoader().loadTestsFromModule(tests_decisions)
+suite = unittest.TestLoader().loadTestsFromModule(tests_repetition)
 unittest.TextTestRunner(verbosity=2).run(suite)
