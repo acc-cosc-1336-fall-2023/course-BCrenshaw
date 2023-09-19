@@ -20,3 +20,19 @@ def prompt_user():
     keep_going = 'y'
     while keep_going == 'y' or keep_going == 'Y' or keep_going == 'yes' or keep_going == 'Yes' or keep_going == 'YES':
         keep_going = input('Loop again?')
+
+def for_intro_loop():
+    for num in [1,2,3,4,5]:
+        print(num)
+
+def for_intro_loop_string():
+    for lang in ['C++', 'C#', 'Java', 'Python']:
+        print(lang)
+
+def for_sum_of_squares(num):
+    sum = 0
+
+    for val in range(1, num+1):
+        sum = sum + val * val
+
+    return sum
