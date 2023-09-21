@@ -36,3 +36,70 @@ def for_sum_of_squares(num):
         sum = sum + val * val
 
     return sum
+
+def get_sum(num):
+    sum = 0
+    cnt = 0
+
+    while(cnt <= num):
+        sum += cnt
+        cnt += 1
+
+    return sum
+
+def get_sum_for(num):
+    sum = 0
+    
+    for n in range(num):
+        sum += n + 1
+
+    return sum
+
+def for_num_range_s_start_value(num1, num2):
+
+    for n in range (num1, num2+1):
+        print(n)
+
+def for_num_range_w_step_value(num, num1, num2):
+
+    for n in range(num, num1, num2):
+        print(n)
+
+def for_display_squares(num1, num2):
+    for n in range(num1, num2):
+        square = n ** 2
+        print(n, '\t' , square) # '\t' = a tab spacing
+
+def while_validate_user_input():
+    min_num = 1
+    max_num = 10
+    lot_number = -1
+
+    while lot_number != 'Exit' and lot_number != 'exit':
+        lot_number = input('Enter lot number (' + str(min_num) + '-' + str(max_num) + ') or type Exit: ')
+
+        if lot_number.isnumeric():
+            lot_number = int(lot_number) 
+
+            if lot_number >= min_num and lot_number <= max_num:
+                print('Lot Number = ' + str(lot_number))
+
+            else:
+                print('Lot number ' + str(lot_number) + ' is not in range ' + str(min_num) + ' - ' + str(max_num))
+
+        else:
+            print('Lot number must be numeric')
+    
+def nested_while_loop(row, col):
+    i = 0
+
+    while i < row:
+        print('i: ', i, 'outer loop-wait for inner loop')
+        i += 1
+        j = 0
+
+        while j < col:
+            print('j: ', j, '\t inner loop')
+            j += 1
+
+        print('inner loop complete')
