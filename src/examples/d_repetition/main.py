@@ -26,6 +26,12 @@ import repetition
 
 #repetition.for_display_squares(0, 5)
 
-repetition.while_validate_user_input() #This one was incomplete
+#repetition.while_validate_user_input() #This one was incomplete
 
 #repetition.nested_while_loop(3,3)
+
+#repetition.nested_for_loop(3, 3)
+
+#repetition.for_multiplication_tables(10, 10)
+
+repetition.while_multiplication_table(10, 3)
