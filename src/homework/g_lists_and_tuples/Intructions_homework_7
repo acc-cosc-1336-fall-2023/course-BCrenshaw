@@ -1,0 +1,88 @@
+"""
+                    UPLOAD ASSIGNMENT: HOMEWORK 7
+            loaded into lists.py since dictionary.py was used for Homework 6
+
+Instructions:
+
+>>> Objective
+        Use Python to create a program using dictionaries and sets.
+
+>>> Problem domain (COMPLETE)
+        Write a function named add_inventory with a widgets parameter of type dictionary, widget_name, and quantity. 
+        The function will add the widget to the dictionary if it doesn't exist. 
+        If the widget exists it will update the quantity of the widgets.
+
+        Write a function named remove_inventory_widget with a widget_name parameter. 
+        The function will remove the widget_name if it exists and return 'Record deleted'. 
+        Otherwise it returns 'Item not found'.
+
+>>> Prerequisites (COMPLETE)
+        Install Python
+        GitHub account and repository
+        Install and configure Visual Studio Code
+
+>>> Write Code (COMPLETE)
+        In Visual Studio Code, find the /src/homework/i_dictionaries_sets folder.
+        
+        a.  In the dictionary.py file, write the non-value return function add_inventory
+            Write the code for the value return function remove_inventory_widget
+
+        b.  Write the Tests for the functions (see next section)
+
+>>> Write Unit Test (COMPLETE)
+        In Visual Studio Code, find the /tests/homework/i_dictionaries_sets folder.
+
+        a.  In the file test_dictionaries_and_sets.py add the following code:
+
+            import unittest
+                
+                from src.homework.i_dictionaries_and_sets import get_p_distance
+                class Test_Config(unittest.TestCase):
+
+        b.  Test case test_add_inventory
+            Write to assert that adding Widget1 with quantity of 10 to the inventory_dictionary inserts the Widget1 with value of 10 for quantity.
+            Write another assertion to test that adding Widget1 with quantity of 25 updates the existing Widget1 item quantity to 35.
+            Write another assertion to test that adding Widget1 with quantity of -10 updates the existing Widget1 item quantity to 25.
+
+        c.  Test case test_remove_inventory_widget
+            Write a test case add two widgets(widget1 and widget2 with quantities of your choice).
+            Remove widget1. Test that the length of dictionary is 1 and that widget2 still exists.
+ 
+>>> Run the Unit Tests (COMPLETE)
+        In Visual Studio Code, find the /tests/homework/i_dictionaries_sets folder
+
+        a.  From the source code root folder, find the run_tests.py file.
+            Replace: from tests.homework.h_strings import test_strings
+            with
+            from tests.homework.i_dictionaries_and_sets import tests_dictionaries_and_sets
+            Verify that line has the following statement :
+            Replace tests_strings with tests_dictionaries_and_sets
+            suite = unittest.TestLoader().loadTestsFromModule(tests_dictionaries_and_sets)
+
+        b.  Click on the play button to run the test case.
+
+        c.  Make sure the test results return ok for the test cases (Fix the code if it fails).
+
+>>> Create and Run the Main Program
+        In Visual Studio Code, find the /src/homework/i_dictionaries_and_sets folder find the main.py file. 
+        write code to create the following menu.
+
+        Inventory Menu
+                1-Add or Update Item
+                2-Delete Item
+                3-Exit
+        
+        The program runs until the user chooses option 3.
+
+
+>>> Upload the Changes to GitHub
+        
+        a.  In Visual Studio Code, click on the Source Control icon .
+        b.  Select only the files pertaining to this assignment.
+        c.  Click on the + to stage the changes.
+        d.  Click on the check mark to commit the changes.
+        e.  From the menu select the …, from the menu select Push.
+        f.  Submit the Assignment for Grading in Blackboard
+        g.  Make sure to add your GitHub user name to the Comment edit box.
+
+"""
