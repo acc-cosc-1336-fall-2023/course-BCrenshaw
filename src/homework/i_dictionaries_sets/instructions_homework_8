@@ -1,0 +1,23 @@
+"""
+            Upload Assignment: Homework 8
+ 
+INSTRUCTIONS:
+    Using the following sets:
+        >>> baseball = set(['Jodi', 'Carmen', 'Aida', 'Alicia'])
+        >>> basketball = set(['Eva', 'Carmen', 'Alicia', 'Sarah'])
+
+Create test cases for the following use cases:
+    Use the file in /tests/homework/g_dictionaries_sets/tests_dictionaries_and_sets.y
+
+        It finds the intersection of the sets to display the names of students who play both sports.
+
+        It finds the union of the sets to display the names of students who play either sport.
+
+        It finds the difference of the baseball and basketball sets to display the names of students who play baseball but not basketball.
+
+        It finds the difference of the basketball and baseball (basketball – baseball) sets to display the names of students who play basketball but not baseball. 
+            It also finds the difference of the baseball and basketball (baseball – basketball) sets to display the names of students who play baseball but not 
+            basketball.
+
+        It finds the symmetric difference of the basketball and baseball sets to display the names of students who play one sport but not both.
+"""

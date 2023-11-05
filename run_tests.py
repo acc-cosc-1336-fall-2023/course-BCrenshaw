@@ -23,13 +23,13 @@ YOU HAVE TO TEST FROM HERE BRANDON!
 #from tests.homework.d_repetition import tests_repetition
 #from tests.homework.e_functions import tests_functions
 #from tests.homework.f_files_exception import tests_files_exception
-from tests.homework.g_lists_and_tuples import tests_lists_and_tuples
+#from tests.homework.g_lists_and_tuples import tests_lists_and_tuples
 #from tests.homework.h_strings import tests_strings
-#from tests.homework.i_dictionaries_sets import tests_dictionaries_and_sets
+from tests.homework.i_dictionaries_sets import tests_dictionaries_and_sets
 #from tests.homework.j_classes_sets import tests_classes
 #from tests.homework.k_inheritance import tests_inheritance
 #from tests.homework.l_recursion import tests_recursion
 #from tests.homework.m_gui import tests_gui
 
-suite = unittest.TestLoader().loadTestsFromModule(tests_lists_and_tuples)
+suite = unittest.TestLoader().loadTestsFromModule(tests_dictionaries_and_sets)
 unittest.TextTestRunner(verbosity=2).run(suite)
