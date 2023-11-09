@@ -1,0 +1,69 @@
+"""
+                                    Upload Assignment: Homework 9
+ 
+        >>> INSTRUCTIONS
+                Objective:
+                    Use Python to create a testable program that uses one class.
+
+                    Problem domain
+                        The gaming industry uses a die as the foundation for many of its games. 
+                        In this domain, model a die that returns it’s rolled value.
+
+                    Prerequisites
+                        Install Python
+                        GitHub account and repository
+                        Install and configure Visual Studio Code
+
+        >>> Write Code
+                In Visual Studio Code, find the /src/homework/j_classes folder.
+                    In the class_a.py file, .
+
+                Write a class named die, with no constructor.
+                    public functions:
+                        roll()—use random to generate a value from 1 to 6, save value to roll_value
+                        get_rolled_value()—return the roll_value
+                        __str__ --write code to output: “The rolled value is “ whatever roll_value is
+
+                    private data:
+                        roll_value
+
+                Write the Tests to make sure that get_rolled_value returns values from 1 to 6, test at least 3 rolls.
+
+                Write Unit Test
+
+                Test that at least 3 rolls always return a value from 1 to 6.
+                
+                Run the Unit Tests
+
+        >>> In Visual Studio Code, find the /tests/homework/j_classes folder
+                From the source code root folder, find the run_tests.py file.
+                    Replace: from tests.homework.xxxxxxx import test_xxxxxx
+                                with
+                            from tests.homework.j_classes import tests_classes
+
+                    Verify that line has the following statement:
+                        Replace xxxxxxx with tests_classes
+                            suite = unittest.TestLoader().loadTestsFromModule(tests_classes)
+                        
+                        Click on the play button to run the test case.
+                        
+                        Make sure the test results return ok for the test cases (Fix the code if it fails).
+ 
+        >>> Create and Run the Main Program
+
+In Visual Studio Code, find the /src/homework/j_classes folder find the main.py file. write code to create the following menu.
+
+The program runs until the user chooses to exit.
+
+Write a loop to roll the die, after the roll prompt the user if they want to continue.
+Display the result of the roll
+
+Upload the Changes to GitHub
+In Visual Studio Code, click on the Source Control icon .
+Select only the files pertaining to this assignment.
+Click on the + to stage the changes.
+Click on the check mark to commit the changes.
+From the menu select the …, from the menu select Push.
+Submit the Assignment for Grading in Blackboard
+Make sure to add your GitHub user name to the Comment edit box.
+"""
