@@ -1,7 +1,7 @@
-import bank_account
+import bank_account, atm, menu
 
 account = bank_account.BankAccount(50)
 
-print(account.get_balance())
+my_atm = atm.ATM(account)
 
-amount = int(input('Enter Deposit Amount: '))
+menu.run_menu(my_atm)
