@@ -12,7 +12,7 @@ YOU HAVE TO TEST FROM HERE BRANDON!
 #from tests.examples.g_lists_and_tuples import tests_lists_and_tuples
 #from tests.examples.h_strings import tests_strings
 #from tests.examples.i_dictionaries_sets import tests_dictionaries_and_sets
-#from tests.examples.j_classes import tests_classes
+from tests.examples.j_classes import tests_classes
 #from tests.examples.k_inheritance import tests_inheritance
 #from tests.examples.l_recursion import tests_recursion
 #from tests.examples.m_gui import tests_gui
@@ -26,7 +26,7 @@ YOU HAVE TO TEST FROM HERE BRANDON!
 #from tests.homework.g_lists_and_tuples import tests_lists_and_tuples
 #from tests.homework.h_strings import tests_strings
 #from tests.homework.i_dictionaries_sets import tests_dictionaries_and_sets
-from tests.homework.j_classes import tests_classes
+#from tests.homework.j_classes import tests_classes
 #from tests.homework.k_inheritance import tests_inheritance
 #from tests.homework.l_recursion import tests_recursion
 #from tests.homework.m_gui import tests_gui

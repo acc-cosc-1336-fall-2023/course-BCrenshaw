@@ -1,7 +1,6 @@
-import bank_account, atm, menu
+import bank_account, atm, menu, random as r
 
-account = bank_account.BankAccount(50)
-
+account = bank_account.BankAccount(-1)
 my_atm = atm.ATM(account)
 
 menu.run_menu(my_atm)
